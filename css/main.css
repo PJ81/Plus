@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    user-select: none;
+    background-color: #111;
+    display: flex;
+    align-content: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#possibles {
+    margin: 10px;
+    color: mediumpurple;
+    font-size: 14px;
+}
+
+#extra {
+    float: left;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+#score {
+    color: lightgreen;
+    font-size: 42px;
+    float: right;
+    margin: 16px;
+    margin-top: 46px;
+}
+
+#board {
+    margin: 50px auto;
+    width: 450px;
+    height: 650px;
+}
+
+#numbers {
+    display: flex;
+    place-items: center;
+    position: relative;
+    right: -235px;
+    top: 25px;
+}
+
+#quads {
+    width: 420px;
+    height: 420px;
+    position: relative;
+    left: 15px;
+    top: 40px
+}
+
+.square,
+.big,
+.mid,
+.small {
+    width: 60px;
+    height: 60px;
+    line-height: 56px;
+    font-size: 56px;
+    border: 2px solid lightskyblue;
+    background-color: #0e151a;
+    border-radius: 3px;
+    position: relative;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    animation-fill-mode: forwards;
+    margin: 3px;
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+.big {
+    width: 70px;
+    height: 70px;
+    font-size: 66px;
+    line-height: 64px;
+    cursor: default;
+}
+
+.mid {
+    width: 50px;
+    height: 50px;
+    font-size: 46px;
+    line-height: 44px;
+    cursor: default;
+}
+
+.small {
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.squareH:hover {
+    background-color: #1c2933;
+}
+
+.red {
+    border: 2px solid red;
+    border-radius: 3px;
+    background-color: #100;
+    color: red;
+    cursor: default;
+}
+
+.green {
+    border: 2px solid greenyellow;
+    border-radius: 3px;
+    background-color: #010;
+    color: greenyellow;
+}
